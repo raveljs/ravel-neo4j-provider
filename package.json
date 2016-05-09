@@ -1,0 +1,30 @@
+{
+  "name": "ravel-neo4j-provider",
+  "version": "0.13.0",
+  "author": "Phil Laliberte <phil.laliberte@gmail.com>",
+  "description": "Neo4j Provider for Ravel Rapid Application Development Framework",
+  "contributors": [
+    {
+      "name": "Phil Laliberte",
+      "email": "phil.laliberte@gmail.com"
+    }
+  ],
+  "main": "ravel-neo4j-provider.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raveljs/ravel-neo4j-provider.git"
+  },
+  "peerDependencies": {
+    "ravel": "0.13.x"
+  },
+  "devDependencies": {
+    "eslint": "1.10.3",
+    "gulp": "3.9.0",
+    "gulp-eslint": "1.1.1",
+    "gulp-load-plugins": "1.2.0"
+  },
+  "dependencies": {
+    "neo4j": "^1.1.1"
+  }
+}
