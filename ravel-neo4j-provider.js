@@ -26,7 +26,7 @@ class Neo4jProvider extends Ravel.DatabaseProvider {
     super(instanceName);
 
     // required neo4j parameters
-    ravelInstance.registerSimpleParameter(`${instanceName} options`, true, DEFAULT_OPTIONS);
+    ravelInstance.registerParameter(`${instanceName} options`, true, DEFAULT_OPTIONS);
   }
 
   prelisten(ravelInstance) {
