@@ -1,6 +1,6 @@
 {
   "name": "ravel-neo4j-provider",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "author": "Phil Laliberte <phil.laliberte@gmail.com>",
   "description": "Neo4j Provider for Ravel Rapid Application Development Framework",
   "contributors": [
@@ -16,7 +16,7 @@
     "url": "https://github.com/raveljs/ravel-neo4j-provider.git"
   },
   "peerDependencies": {
-    "ravel": "0.17.x"
+    "ravel": "0.18.x"
   },
   "devDependencies": {
     "eslint": "1.10.3",
